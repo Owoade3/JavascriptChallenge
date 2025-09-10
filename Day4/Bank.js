@@ -155,7 +155,7 @@ function addBonus() {
 function allCustomersBalance() {
   return customerRecord.map((customer) => customer.balance);
 }
-// Functionto chexk if a cusomer is rich or poor
+// Functionto check if a cusomer is rich or poor
 function isRichOrPoor(customerId) {
   const customer = customerRecord.find((d) => d.id === customerId);
   if (customer) {
